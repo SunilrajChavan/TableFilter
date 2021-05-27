@@ -1,0 +1,15 @@
+@import "../../styles/settings.scss";
+
+header {
+  background-color: #10293f;
+  height: $header-height;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  text-align: left;
+
+  img.logo {
+    height: 100%;
+  }
+}

@@ -1,0 +1,26 @@
+.table_wrapper {
+    &__table {
+        border-collapse: collapse;
+    }
+    &__header {
+        th {
+            border: 1px solid #000;
+            padding: 15px;
+            text-transform: uppercase;
+        }
+    }
+    &__body {
+        tr:nth-child(even) {
+            background-color: beige;
+        }
+
+        tr:nth-child(odd) {
+            background-color: bisque;
+        }
+
+        td {
+            border: 1px solid #000;
+            padding: 15px;
+        }
+    }
+}
